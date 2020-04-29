@@ -19,7 +19,7 @@
       return {
         currentStyle: '',
         currentStyleInTag: '',
-        reader: new Reader(StyleCode, 1)
+        reader: new Reader(StyleCode, 50)
       }
     },
     created() {
